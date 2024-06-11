@@ -6,7 +6,7 @@
 /*   By: htrindad <htrindad@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/11 12:44:36 by htrindad          #+#    #+#             */
-/*   Updated: 2024/06/11 13:38:18 by htrindad         ###   ########.fr       */
+/*   Updated: 2024/06/11 13:37:14 by htrindad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ char	*get_next_line(int fd)
 	next_l = post_str;
 	return (pre_str);
 }
-
+/*
 #include <fcntl.h>
 #include <stdio.h>
 
@@ -77,7 +77,7 @@ int main()
 		free(str);
 	}
 }
-
+*/
 
 /* type the following on your command line
  *	echo "I’m hurt\nand I’m old\nand I’m fucking tired\nand I work with fucking children" > test.txt
